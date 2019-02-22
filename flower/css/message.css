@@ -1,0 +1,378 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*去掉列表默认样式*/
+
+}
+
+body {
+    font: 16px/1.5 'Microsoft YaHei UI', 'sans-serif';
+    color: #333333;
+}
+
+a {
+    text-decoration: none; /*下划线*/
+    color: #333;
+}
+
+/*默认样式*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+
+}
+/*行内元素，内容支撑框架，内容沾满换行，块元素一块占一行*/
+.logo a{
+    display: block;/*将行内元素变成块*/
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    width: 605px;
+    float: right;
+    height: 100%;
+
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*nav导航*/
+.title{
+    width: 100%;
+    height: 120px;
+    background: #ccc;
+}
+.title  h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+    text-shadow: none;
+    margin-top: 79px;
+}
+.container{
+    width: 100%;
+    height: 819px;
+    background: #b0b0b0;
+}
+.flowerList{
+    float: left;
+    width: 780px;
+    height: 759px;
+    margin-left: 100px;
+    background: #fff;
+    padding-top: 30px;
+
+}
+.flowerList .flowerItem{
+    /*float: left;*/
+    width: 720px;
+    height: 79px;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    margin-left: 30px;
+    /*margin-bottom: 30px;*/
+    padding-top:10px;
+    background: #fff;
+}
+.flowerList .flowerItem:nth-of-type(4){
+    width: 720px;
+    height: 137px;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    margin-left: 30px;
+    /*margin-bottom: 20px;*/
+    padding-top:10px;
+    background: #fff;
+}
+.flowerList .flowerItem:nth-of-type(5){
+    width: 720px;
+    height: 137px;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    margin-left: 30px;
+    /*margin-bottom: 20px;*/
+    padding-top:10px;
+    background: #fff;
+}
+.flowerList .flowerItem:nth-of-type(6){
+    width: 720px;
+    height: 137px;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    margin-left: 30px;
+    /*margin-bottom: 20px;*/
+    padding-top:10px;
+    background: #fff;
+}
+.flowerItem  .itemInfo{
+    /*float: right;*/
+    width: 690px;
+    height: 57px;
+    font-size: 14px;
+    color: #76838f;
+    margin-top: 8px;
+    margin-left: 15px;
+    background: #fff;
+}
+/*.flowerItem  .itemInfo:nth-of-type(4){
+    width: 690px;
+    height: 187px;
+    font-size: 14px;
+    color: #76838f;
+    !*margin-top: 10px;*!
+    margin-left: 15px;
+    background: #5b5b5a;
+}*/
+.containerBox  .replay{
+    width: 630px;
+    height: 63px;
+    background: #cccccc;
+    font-size: 14px;
+    padding-top: 6px;
+    /*text-align: center;*/
+    line-height: 63px;
+    overflow: hidden;
+}
+.itemInfo  .touxiang{
+    width: 45px;
+    height: 53px;
+    float: left;
+    /*border-radius: 50%;*/
+    background: #fff;
+}
+
+.itemInfo  .touxiang  img{
+    width: 100%;
+    height: 45px;
+    border-radius: 50%;
+}
+.itemInfo  .containerBox{
+    width: 630px;
+    height: 53px;
+    background: #ff5878;
+    margin-left: 60px;
+}
+.containerBox  .infoTitle{
+    width: 630px;
+    height: 26px;
+}
+.container  .flowerList  .containerBox .infoTitle   .user{
+    float: left;
+    width: 230px;
+    height: 26px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    background: #fff;
+}
+.containerBox  .infoTitle  .userTime{
+    float: right;
+    width: 400px;
+    height: 26px;
+    font-size: 12px;
+    color: #a3afb7;
+    text-align: right;
+    background: #fff;
+}
+
+.containerBox  .infoDesc{
+    width: 630px;
+    height: 2em;
+    color: #5a5a5a;
+    background: #fff;
+    position: relative;
+    line-height: 2em;
+}
+
+/*flower素馨花语*/
+
+.container  .containerRight{
+    width: 360px;
+    height: 464px;
+    background: #fff;
+    float: left;
+    margin-left: 30px;
+}
+.containerRight  .r{
+    width: 300px;
+    height: 36px;
+    /*border-radius: 15px;*/
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.containerRight   .r input{
+    width: 296px;
+    height: 32px;
+    /*border-radius: 15px;*/
+    /*margin-left: 10px;*/
+    /*margin-top: 6px;*/
+    text-align: left;
+    font-size: 10px;
+    border: none;
+    outline: none;
+}
+.containerRight  .jy{
+    width: 300px;
+    height: 124px;
+    /*border-radius: 15px;*/
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+    /*position: relative;*/
+}
+.containerRight  .jy  input{
+    width: 200px;
+    height: 20px;
+    /*text-align: left;*/
+    font-size: 10px;
+    /*position: absolute;
+    top: 10px;*/
+    border: none;
+    outline: none;
+}
+.containerRight  .yz{
+    width: 300px;
+    height: 36px;
+    /*border-radius: 15px;*/
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.containerRight  .yz  input{
+    width: 100px;
+    height: 32px;
+    text-align: left;
+    font-size: 10px;
+    border: none;
+    outline: none;
+}
+.containerRight  .yz  .num{
+    width: 100px;
+    height: 36px;
+    float: right;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    border: 1px  solid  #b0b0b0;
+}
+.containerRight  .tj{
+    width: 300px;
+    height: 36px;
+    /*border-radius: 15px;*/
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.containerRight  .tj  input{
+    width: 300px;
+    height: 36px;
+    background: blue;
+    /*text-align: left;*/
+    font-size: 10px;
+}
+.back{
+    width: 36px;
+    height: 36px;
+    background: blue;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 38px;
+}
+
+.coj{
+    width:100%;
+    height: 182px;
+    background:#f5f5f5;
+    /*background: #ff5878;*/
+
+}
+.cojBox{
+    width: 270px;
+    height: 56px;
+    /*background: #C3E40B;*/
+    margin: 8px auto ;
+
+
+}
+.cojBox a img{
+    float: left;
+    padding-left: 48px;
+    padding-top: 14px;
+    width: 26px;
+    height: 26px;
+
+
+}
+.coj .add {
+    width: 500px;
+    height: 100px;
+    /*background: #C3E40B;*/
+    margin: 8px auto;
+    line-height: 40px;
+    text-align: center;
+
+
+}
+.add p{
+    color: #5e7287;
+    line-height: 25px;
+    font-size: 12px;
+}
+.add  a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+
+}
+.addPhone img{
+    width:15px;
+    height: 15px;
+    padding-right: 5px;
+}
+/*联系地址*/

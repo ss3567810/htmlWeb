@@ -1,0 +1,437 @@
+.nav{
+    width: 100%;
+    height: 0.4rem;
+    background-image: linear-gradient(to right,#ff854a ,#f23944);
+    line-height: 0.4rem;
+    color: #ffffff;
+}
+.navBox{
+    width: 7.03rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.navBox .n1{
+    float: left;
+}
+.navBox .n2{
+    float: left;
+    margin-left: 0.08rem;
+}
+.navBox .n3{
+    float: left;
+    margin-left: 2.3rem;
+}
+.navBox .n4{
+    float: left;
+    margin-left: 1.7rem;
+}
+.navBox .n5{
+    float: right;
+}
+.topBar{
+    width: 7.5rem;
+    height: 4.12rem;
+    background-image:linear-gradient(to right,#ff854a ,#f23944) ;
+    margin: 0 auto;
+    position: relative;
+}
+.topBar .topBox{
+    width: 7.03rem;
+    height: 2.1rem;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topTitle{
+    width: 7.03rem;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #f9f6f4;
+    margin-top: 0.15rem;
+    margin-bottom: -0.2rem;
+}
+.topTitle .iconfont{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #f9f6f4;
+    float: left;
+}
+.orderBox{
+    width: 7.03rem;
+    /*height: 0.18rem;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.orderSet{
+    width: 7.03rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.orderSet p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f7efeb;
+}
+.orderSet .home{
+    width: 0.8rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    border: solid 0.02rem #f9f6f4;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+    margin-left: 0.05rem;
+    text-align: center;
+    line-height: 0.16rem;
+    margin-top: 0.06rem;
+}
+.orderBox .sxcz{
+    width: 7.03rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+}
+.orderBox .person{
+    width: 7.03rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+}
+.setInfo{
+    width: 7.03rem;
+    height: 1.27rem;
+    background-color: #f9f6f4;
+    border-radius: 0.1rem;
+    margin: 0.08rem auto;
+}
+.setInfo .infoBox{
+    width: 6.55rem;
+    height:1.27rem;
+    /*background: #C3E40B;*/
+    margin: 0 auto;
+    width: 100%;
+    padding-top:0.08rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoList2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+.infoList .s1{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #020202;
+    float: left;
+}
+.infoList .s2{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+    float: right;
+    margin-top: 0.04rem;
+}
+
+.infoList1{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.16rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+}
+.infoList2 .s3{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #020202;
+    float: left;
+}
+.infoList2 .s4{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+    float: right;
+    /*margin-top: 0.03rem;*/
+}
+.topBar .tuisong{
+    width: 7.03rem;
+    height: 6.36rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    border: solid 0.02rem #949494;
+    position: absolute;
+    left: 0.23rem;
+    top: 3.8rem;
+}
+.tuisong p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.7);
+    margin-top: 0.39rem;
+    margin-left: 0.24rem;
+}
+.tuisong .tuisongBox{
+    width: 6.59rem;
+    height: 0.67rem;
+    margin: 0.4rem auto;
+    /*background:#C3E40B;*/
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.tuisongBox .tuisongImg{
+    width: 0.67rem;
+    height: 0.67rem;
+    background: #ffffff;
+    box-shadow: 0 0.09rem 0.24rem 0
+    #a0a0a0;
+    border-radius: 50%;
+    float: left;
+}
+.tuisongImg img{
+    width: 0.67rem;
+    height: 0.67rem;
+    border-radius: 50%;
+}
+.tuisongBox .tuisongInfo{
+    height: 0.67rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.7);
+    float: left;
+    line-height: 0.67rem;
+    margin-left: 0.1rem;
+}
+.tuisongBox .iconfont{
+    height: 0.67rem;
+    font-size: 0.22rem;
+    color: #fa0421 ;
+    display: block;
+    float: left;
+    line-height: 0.67rem;
+    margin-left: 0.1rem;
+    letter-spacing: 0.1rem;
+}
+.tuisongBox .tuiMoney{
+    height: 0.67rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fa0421;
+    line-height: 0.67rem;
+    float: left;
+    margin-left: 1.5rem;
+}
+.tuisongBox .tuirmb{
+    height: 0.67rem;
+    float: right;
+    line-height: 0.67rem;
+    display: block;
+    font-size:0.2rem ;
+    color: rgba(0,0,0,0.5);
+}
+.tuisongBox1{
+    width: 6.59rem;
+    height: 0.67rem;
+    margin: 0.4rem auto;
+    line-height: 0.67rem;
+    /*background: #FFA100;*/
+}
+.tuisongBox1 .payWay{
+    height: 0.67rem;
+    font-family: PingFang-SC-Bold;
+    font-size:0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: rgba(0,0,0,0.7);
+    float: left;
+}
+.tuisongBox1 .payWayInfo{
+     height: 0.67rem;
+     font-family: PingFang-SC-Bold;
+     font-size: 0.2rem;
+     font-weight: normal;
+     font-stretch: normal;
+     letter-spacing: 0;
+     color: rgba(0,0,0,0.5);
+     float: left;
+    margin-left: 4rem;
+ }
+.tuisongBox1 .tuiButton .iconfont{
+    height: 0.67rem;
+    float: right;
+    line-height: 0.67rem;
+    display: block;
+    font-size:0.2rem ;
+    color: rgba(0,0,0,0.5);
+
+}
+.tuisongBox1 .totalMoney{
+    height: 0.67rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f90523;
+    float: left;
+    line-height:0.67rem ;
+    margin-left:5rem ;
+}
+.tuisongBox1 .totalrmb{
+    height: 0.67rem;
+    float: right;
+    line-height: 0.67rem;
+    display: block;
+    font-size:0.2rem ;
+    color: rgba(0,0,0,0.5);
+}
+.topBar .taste{
+    width: 7.03rem;
+    height: 1.94rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    border: solid 0.02rem #7d7d7d;
+    position: absolute;
+    top: 11rem;
+    left: 0.23rem;
+}
+.taste .taste1{
+    width: 6.59rem;
+    height: 0.97rem;
+    /*background: #FFA100;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    line-height: 0.97rem;
+}
+.taste1 .t1{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.7);
+}
+.taste1 .t2{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.5);
+}
+.footer{
+    width: 100%;
+    height: 1.01rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.04rem 0.08rem 0 #b5b5b5;
+    /*background: #ff5878;*/
+    position: fixed;
+    bottom: 0;
+    margin-top: 9.5rem;
+}
+.footerBox{
+    width: 7.03rem;
+    height: 1.01rem;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+   /* position: fixed;
+    bottom: 0;*/
+}
+.footerCircle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.02rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.45rem;
+    float: left;
+}
+.footerMoney{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f23a44;
+    float: left;
+    margin-top: 0.32rem;
+    margin-left: 0.05rem;
+}
+.rmb{
+    font-size: 0.18rem;
+    float: left;
+    margin-top: 0.35rem;
+    color: rgba(0,0,0,0.5);
+}
+.confirm{
+    width: 1.44rem;
+    height: 0.45rem;
+    background-image: linear-gradient(90deg,
+    #ff854a 0%,
+    #ff6049 59%,
+    #ff3b48 100%);
+    border-radius: 0.2rem;
+    float: right;
+    margin-top: 0.3rem;
+    text-align: center;
+    line-height: 0.45rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #ffffff;
+}
+

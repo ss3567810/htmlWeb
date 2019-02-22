@@ -1,0 +1,315 @@
+.nav{
+    width: 100%;
+    height: 0.4rem;
+    background-image: linear-gradient(to right,#ff854a ,#f23944);
+    line-height: 0.4rem;
+    color: #ffffff;
+}
+.navBox{
+    width: 7.03rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.navBox .n1{
+    float: left;
+}
+.navBox .n2{
+    float: left;
+    margin-left: 0.08rem;
+}
+.navBox .n3{
+    float: left;
+    margin-left: 2.3rem;
+}
+.navBox .n4{
+    float: left;
+    margin-left: 1.7rem;
+}
+.navBox .n5{
+    float: right;
+}
+.topicBox{
+    width: 7.5rem;
+    height: 6.08rem;
+    background-image:url("../images/p111.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    margin:0 auto;
+    position: relative;
+}
+.topicBox .topicImg{
+    width: 1.76rem;
+    height: 1.76rem;
+    background: #ffffff;
+    /*border: solid 0.03rem #ffffff;*/
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    float: left;
+}
+.topicImg img{
+    width: 1.76rem;
+    height: 1.76rem;
+    border-radius: 50%;
+}
+.topicBox .userName{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.48rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.03rem;
+    color: #ffffff;
+    float: left;
+    margin-top: 3.6rem;
+    margin-left: -1.6rem;
+}
+.topicBox    .gram{
+    font-family: PingFang-SC-Heavy;
+    font-size:0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    /*text-align: center;*/
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 4.2rem;
+    left: 1.7rem;
+}
+.shape{
+    width: 1.2rem;
+    height: 0.27rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    opacity: 0.6;
+    position: absolute;
+    top: 4.6rem;
+    left: 3.2rem;
+}
+.button{
+    width: 0.57rem;
+    height: 0.57rem;
+    background:rgba(255,255,255,0.5);
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    top: 5rem;
+    left: 2.9rem;
+    text-align:center;
+    line-height: 0.57rem;
+}
+.button1{
+    width: 0.57rem;
+    height: 0.57rem;
+    background:rgba(255,255,255,0.5);
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    top: 5rem;
+    left: 4.4rem;
+    text-align:center;
+    line-height: 0.57rem;
+}
+.myInfo{
+    width: 2.96rem;
+    height: 0.91rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0
+    rgba(215, 120, 0, 0.79);
+    border-radius: 0.46rem;
+    position: absolute;
+    top: 5.75rem;
+    left: 2.5rem;
+    text-align: center;
+    line-height: 0.91rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #e87800;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.myInfo .myCircle1{
+      width: 0.1rem;
+      height: 0.1rem;
+      background: #f23a44;
+      border-radius: 50%;
+      border: solid 0.02rem rgba(255, 134, 141, 0.63);
+      margin-top: 0.44rem;
+      /*margin-left: 0.2rem;*/
+  }
+.myInfo .myCircle2{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.04rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.44rem;
+    /*margin-left: 0.2rem;*/
+}
+.addressBox{
+    width: 7.5rem;
+    height:5.17rem;
+    margin:1rem auto  0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.addressBox .addressList{
+    width: 6.95rem;
+    height: 1.02rem;
+    background: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0 rgba(95, 95, 94, 0.45);
+    border-radius: 0.05rem;
+    margin: 0.01rem auto ;
+}
+.addressList .addressCircle{
+    width: 0.58rem;
+    height: 0.58rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0
+    rgba(95, 95, 94, 0.41);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.58rem;
+    color: #5495ef;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.12rem;
+}
+.addressList p{
+    /*width: 1.31rem;*/
+    height: 1.02rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #040404;
+    opacity: 0.7;
+    float: left;
+    line-height: 1.02rem;
+    margin-left: 0.1rem;
+}
+.addressList .addressCircle1{
+    width: 0.58rem;
+    height: 0.58rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0
+    rgba(95, 95, 94, 0.41);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.58rem;
+    color: #fb4448;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.12rem;
+}
+.addressList .addressCircle2{
+    width: 0.58rem;
+    height: 0.58rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0
+    rgba(95, 95, 94, 0.41);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.58rem;
+    color: #5495ef;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.12rem;
+}
+.addressList .addressCircle3{
+    width: 0.58rem;
+    height: 0.58rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.18rem 0
+    rgba(95, 95, 94, 0.41);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.58rem;
+    color: #FFA100;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.12rem;
+}
+.addressList .qiandao{
+    width: 0.68rem;
+    height: 0.38rem;
+    background-image: linear-gradient(to right,#62b1f4,
+    #62b1f4);
+    float: right;
+    border-radius: 0.2rem;
+    margin-top: 0.33rem;
+    margin-right: 0.2rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #f9f6f2;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.addressList .shoucang{
+    width: 0.62rem;
+    height: 0.34rem;
+    background-image: linear-gradient(to right,#ea576a,
+    #fb4448);
+    float: right;
+    border-radius: 0.2rem;
+    margin-top: 0.33rem;
+    margin-right: 0.2rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #f9f6f2;
+    text-align: center;
+    line-height: 0.34rem;
+}
+.addressList .kefu {
+    width: 0.84rem;
+    height: 0.42rem;
+    background-image: linear-gradient(to right, #62b1f4,
+    #62b1f4);
+    float: right;
+    border-radius: 0.22rem;
+    margin-top: 0.3rem;
+    margin-right: 0.2rem;
+}
+.kefu .keCircle{
+    width: 0.3rem;
+    height:0.3rem;
+    background-image: radial-gradient(circle,#62b1f4 0,#62b1f4 50%,#ffffff 0,#ffffff 100%);
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.05rem;
+}
+.footer{
+    width: 100%;
+    height: 0.93rem;
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 0.1rem;
+    text-align: center;
+    box-shadow: 0 -0.05rem 0.05rem #cccccc;
+    background: #ffffff;
+}
+
+.footerList:nth-child(4){
+    color: #d853b7;
+}

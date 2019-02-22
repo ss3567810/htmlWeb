@@ -1,0 +1,301 @@
+.nav{
+    width: 100%;
+    height: 0.4rem;
+    background-image: linear-gradient(to right,#ff854a ,#f23944);
+    line-height: 0.4rem;
+    color: #ffffff;
+}
+.navBox{
+    width: 7.03rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.navBox .n1{
+    float: left;
+}
+.navBox .n2{
+     float: left;
+     margin-left: 0.08rem;
+ }
+.navBox .n3{
+    float: left;
+    margin-left: 2.3rem;
+}
+.navBox .n4{
+    float: left;
+    margin-left: 1.7rem;
+}
+.navBox .n5{
+    float: right;
+}
+.topBar{
+    width: 7.5rem;
+    height: 4.12rem;
+    background-image:linear-gradient(to right,#ff854a ,#f23944) ;
+    margin: 0 auto;
+    position: relative;
+}
+.topBar .topBox{
+    width: 7.03rem;
+    height: 2.1rem;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topTitle{
+    width: 7.03rem;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #f9f6f4;
+    margin-top: 0.15rem;
+    margin-bottom: -0.2rem;
+}
+.topTitle .iconfont{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #f9f6f4;
+    float: left;
+}
+.orderBox{
+    width: 7.03rem;
+    /*height: 0.18rem;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.orderSet{
+    width: 7.03rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.orderSet p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f7efeb;
+}
+.orderSet .home{
+    width: 0.8rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    border: solid 0.02rem #f9f6f4;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+    margin-left: 0.05rem;
+    text-align: center;
+    line-height: 0.16rem;
+    margin-top: 0.06rem;
+}
+.orderBox .sxcz{
+    width: 7.03rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+}
+.orderBox .person{
+    width: 7.03rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f9f6f4;
+}
+.setInfo{
+    width: 7.03rem;
+    height: 1.27rem;
+    background-color: #f9f6f4;
+    border-radius: 0.1rem;
+    margin: 0.08rem auto;
+}
+.setInfo .infoBox{
+    width: 6.55rem;
+    height:1.27rem;
+    /*background: #C3E40B;*/
+    margin: 0 auto;
+    width: 100%;
+    padding-top:0.08rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoList2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+.infoList .s1{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #020202;
+    float: left;
+}
+.infoList .s2{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+    float: right;
+    margin-top: 0.04rem;
+}
+
+.infoList1{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.16rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+}
+.infoList2 .s3{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #020202;
+    float: left;
+}
+.infoList2 .s4{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ff3c48;
+    float: right;
+    /*margin-top: 0.03rem;*/
+}
+.topBar .tuisong{
+    width: 7.03rem;
+    height: 5.9rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.05rem #cccccc;
+    border-radius: 0.1rem;
+    border: solid 0.02rem #949494;
+    position: absolute;
+    left: 0.23rem;
+    top: 5rem;
+}
+.tuisong .tuiTitle{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.7);
+    margin: 0.4rem 2.6rem;
+}
+.tuisong .payway{
+    width: 6.12rem;
+    height:0.63rem;
+    margin: 0.3rem auto;
+    line-height: 0.63rem;
+    /*background: #FFA100;*/
+}
+.payway .paywayLogo{
+    width: 0.63rem;
+    height: 0.63rem;
+    background: #ffffff;
+    box-shadow: 0 0.06rem 0.09rem 0
+    rgba(238, 127, 100, 0.5);
+    border-radius: 50%;
+    float: left;
+    color: #ee7e66;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.payway p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.5);
+    float: left;
+    margin-left: 0.1rem;
+}
+.payway .paywayLogo1{
+    width: 0.63rem;
+    height: 0.63rem;
+    background: #ffffff;
+    box-shadow: 0 0.06rem 0.09rem 0
+    rgba(85, 144, 248, 0.5);
+    border-radius: 50%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    background-image: linear-gradient(to top,#5192f6 ,#60abfb);
+}
+.paywayLogo1 .iconfont{
+    font-size: 0.36rem;
+}
+.payway .paywayLogo2{
+    width: 0.63rem;
+    height: 0.63rem;
+    background: #ffffff;
+    box-shadow: 0 0.06rem 0.09rem 0
+    rgba(94, 189, 89, 0.5);
+    border-radius: 50%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    background-image: linear-gradient(to top,#61bd5a ,#78c75b);
+}
+.payway .paywayLogo3{
+    width: 0.63rem;
+    height: 0.63rem;
+    background: #ffffff;
+    box-shadow: 0 0.06rem 0.09rem 0
+    rgba(249, 185, 77, 0.5);
+    border-radius: 50%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    background-image: linear-gradient(to top,#f8ba4b ,#f7c94b);
+}
+.payway .paywayLogo4{
+    width: 0.63rem;
+    height: 0.63rem;
+    background: #ffffff;
+    box-shadow: 0 0.06rem 0.09rem 0
+    rgba(97, 204, 160, 0.5);
+    border-radius: 50%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    background-image: linear-gradient(to top,#59cea1 ,#67e1b2);
+}

@@ -1,0 +1,237 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*去掉列表默认样式*/
+
+}
+
+body {
+    font: 16px/1.5 'Microsoft YaHei UI', 'sans-serif';
+    color: #333333;
+}
+
+a {
+    text-decoration: none; /*下划线*/
+    color: #333;
+}
+
+/*默认样式*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+
+}
+/*行内元素，内容支撑框架，内容沾满换行，块元素一块占一行*/
+.logo a{
+    display: block;/*将行内元素变成块*/
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    width: 605px;
+    float: right;
+    height: 100%;
+
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*nav导航*/
+
+.Artcontainer{
+    width: 100%;
+    /*height: 532.5px;*/
+    background: #76838f;
+    margin-top: 79px;
+}
+.Artcontainer   .container{
+    width: 100%;
+    height: 1065px;
+    display: flex;
+    flex-wrap: wrap;
+    /*background: #ff6700;*/
+}
+.Artcontainer  .container  .containerList  {
+    width: 50%;
+    height: 532.5px;
+    /*background-image: url("../images/chahua2.jpg");*/
+    position: relative;
+    /*background: rgba(255,255,255,0.8);*/
+    color: rgba(255,255,255,0.6);
+    transition: all 0.8s;
+    overflow: hidden;
+
+}
+.container  .containerList     img{
+    width: 100%;
+    height: 532.5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+
+}
+.container  .containerList:hover img{
+    transform: scale(1.1,1.1);
+}
+.container  .containerList:hover {
+    /*width: 100%;*/
+    /*height: 532.5px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+   }
+.container  .containerList:hover  .shadow{
+            color:#fff ;
+}
+
+.Artcontainer  .container .containerList  .shadow{
+    width:120px;
+    height:137px;
+    background:rgba(0,0,0,0);
+    z-index: 9;
+    position: absolute;
+    top: 200px;
+    left: 270px;
+}
+.Artcontainer  .container .containerList  .shadow  .time{
+    width: 120px;
+    height: 38px;
+    /*background: #ff6700;*/
+    font-size: 14px;
+    text-align: center;
+    /*color: rgba(255,255,255,0.8);*/
+    /*color: #3a3838;*/
+}
+
+.shadow  .line{
+    width: 30px;
+    height: 2px;
+    background: #b0b0b0;
+    margin-top:0;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+.shadow  .chahua{
+    width: 120px;
+    height: 28px;
+    /*background: #ff6700;*/
+    text-align: center;
+    font-size: 20px;
+    /*color:  rgba(255,255,255,0.8);*/
+    margin-bottom: 20px;
+    /*color: #3a3838;*/
+}
+.shadow  .see{
+    width: 60px;
+    height: 32px;
+    border:  1px  solid white;
+    font-size: 12px;
+    /*color: rgba(255,255,255,0.8);*/
+    text-align: center;
+    line-height: 32px;
+    /*color: #3a3838;*/
+    /*background: #ff6700;*/
+    border-radius: 8%;
+    margin: 0 auto;
+}
+.back{
+    width: 36px;
+    height: 36px;
+    background: blue;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 38px;
+}
+
+.coj{
+    width:100%;
+    height: 182px;
+    background:#f5f5f5;
+    /*background: #ff5878;*/
+
+}
+.cojBox{
+    width: 270px;
+    height: 56px;
+    /*background: #C3E40B;*/
+    margin: 8px auto ;
+
+
+}
+.cojBox a img{
+    float: left;
+    padding-left: 48px;
+    padding-top: 14px;
+    width: 26px;
+    height: 26px;
+
+
+}
+.coj .add {
+    width: 500px;
+    height: 100px;
+    /*background: #C3E40B;*/
+    margin: 8px auto;
+    line-height: 40px;
+    text-align: center;
+
+
+}
+.add p{
+    color: #5e7287;
+    line-height: 25px;
+    font-size: 12px;
+}
+.add  a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+
+}
+.addPhone img{
+    width:15px;
+    height: 15px;
+    padding-right: 5px;
+}
+/*联系地址*/
