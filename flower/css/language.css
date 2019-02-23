@@ -241,12 +241,14 @@ a {
     margin-left: 20px;
 }
 .containerRight  input{
-    width: 160.5px;
-    height: 20px;
+    width: 150px;
+    height: 35px;
     /*border-radius: 15px;*/
-
-    margin-left: 10px;
-    margin-top: 6px;
+    outline: none;
+    border: none;
+    /*line-height: 32px;*/
+    margin-left: 15px;
+    /*margin-top: 6px;*/
     text-align: left;
     font-size: 10px;
 }
@@ -289,20 +291,21 @@ a {
     background: #fff;
     border: 1px  solid  #ccc;
     line-height: 44px;
+    text-indent: 10px;
     /*margin-left: 10px;*/
     font-size: 16px;
 }
 .down  .one:hover{
     color: #ff6700;
-    text-decoration: underline  #ff5878;
+    text-decoration: #2b542c;
 }
 .down  .two:hover{
     color: #ff6700;
-    text-decoration: underline  #ff5878;
+    text-decoration: #2b542c;
 }
 .down  .three:hover{
     color: #ff6700;
-    text-decoration: underline  #ff5878;
+    text-decoration: #2b542c;
 }
 .down  .two{
     width: 220.5px;
@@ -311,6 +314,7 @@ a {
     border-left: 1px  solid  #ccc;
     border-right: 1px  solid  #cccccc;
     line-height: 44px;
+    text-indent: 10px;
     /*margin-left: 10px;*/
     font-size: 16px;
 }
@@ -320,6 +324,7 @@ a {
     background: #fff;
     border: 1px  solid  #cccccc;
     line-height: 44px;
+    text-indent: 10px;
     /*margin-left: 10px;*/
     font-size: 16px;
 }

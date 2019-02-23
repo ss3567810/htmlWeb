@@ -242,14 +242,15 @@ a {
 }
 .containerRight   .r input{
     width: 296px;
-    height: 32px;
+    height: 36px;
     /*border-radius: 15px;*/
     /*margin-left: 10px;*/
-    /*margin-top: 6px;*/
+    /*background: #3a3838;*/
     text-align: left;
     font-size: 10px;
     border: none;
     outline: none;
+    text-indent: 10px;
 }
 .containerRight  .jy{
     width: 300px;
@@ -268,6 +269,7 @@ a {
     font-size: 10px;
     /*position: absolute;
     top: 10px;*/
+    text-indent: 10px;
     border: none;
     outline: none;
 }
@@ -287,6 +289,7 @@ a {
     font-size: 10px;
     border: none;
     outline: none;
+    text-indent: 10px;
 }
 .containerRight  .yz  .num{
     width: 100px;

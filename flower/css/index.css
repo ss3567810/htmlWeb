@@ -138,11 +138,15 @@ a {
     height: 40px;
     position: absolute;
     top: 50%;
-    text-align: center;
-    line-height: 38px;
-    font-size: 30px;
     background: #b0b0b0;
     border-radius: 20px;
+}
+.pp i{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
 }
 .lunbo .artLeft .pp2{
 
@@ -152,12 +156,16 @@ a {
     position: absolute;
     top: 50%;
     left: 1130px;
-    text-align: center;
-    line-height: 38px;
-    font-size: 30px;
     background: #b0b0b0;
     border-radius: 20px;
     z-index: 999;
+}
+.pp2  i{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
 }
 .lunbo .artmiddle{
     float: left;

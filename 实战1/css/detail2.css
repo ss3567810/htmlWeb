@@ -25,7 +25,7 @@
 #header  .sc i{
     color: #ff6700;
     font-size:0.28rem ;
-    padding-left: 0.05rem;
+    padding-left: 0.08rem;
     line-height: 0.45rem;
 
 }
@@ -42,8 +42,8 @@
 #header   .fx i{
     color: #ff6700;
     font-size:0.28rem ;
-    padding-left: 0.05rem;
-    line-height: 0.45rem;
+    padding-left: 0.08rem;
+    line-height: 0.48rem;
 }
 .topBar{
     width: 7.51rem;

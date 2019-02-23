@@ -245,8 +245,8 @@
     margin-left: 0.1rem;
 }
 .payway .paywayLogo1{
-    width: 0.63rem;
-    height: 0.63rem;
+    width: 0.68rem;
+    height: 0.68rem;
     background: #ffffff;
     box-shadow: 0 0.06rem 0.09rem 0
     rgba(85, 144, 248, 0.5);
@@ -254,15 +254,15 @@
     float: left;
     color: #ffffff;
     text-align: center;
-    line-height: 0.63rem;
+    line-height: 0.68rem;
     background-image: linear-gradient(to top,#5192f6 ,#60abfb);
 }
 .paywayLogo1 .iconfont{
     font-size: 0.36rem;
 }
 .payway .paywayLogo2{
-    width: 0.63rem;
-    height: 0.63rem;
+    width: 0.68rem;
+    height: 0.68rem;
     background: #ffffff;
     box-shadow: 0 0.06rem 0.09rem 0
     rgba(94, 189, 89, 0.5);
@@ -270,12 +270,12 @@
     float: left;
     color: #ffffff;
     text-align: center;
-    line-height: 0.63rem;
+    line-height: 0.68rem;
     background-image: linear-gradient(to top,#61bd5a ,#78c75b);
 }
 .payway .paywayLogo3{
-    width: 0.63rem;
-    height: 0.63rem;
+    width: 0.68rem;
+    height: 0.68rem;
     background: #ffffff;
     box-shadow: 0 0.06rem 0.09rem 0
     rgba(249, 185, 77, 0.5);
@@ -283,12 +283,12 @@
     float: left;
     color: #ffffff;
     text-align: center;
-    line-height: 0.63rem;
+    line-height: 0.68rem;
     background-image: linear-gradient(to top,#f8ba4b ,#f7c94b);
 }
 .payway .paywayLogo4{
-    width: 0.63rem;
-    height: 0.63rem;
+    width: 0.68rem;
+    height: 0.68rem;
     background: #ffffff;
     box-shadow: 0 0.06rem 0.09rem 0
     rgba(97, 204, 160, 0.5);
@@ -296,6 +296,6 @@
     float: left;
     color: #ffffff;
     text-align: center;
-    line-height: 0.63rem;
+    line-height: 0.68rem;
     background-image: linear-gradient(to top,#59cea1 ,#67e1b2);
 }
